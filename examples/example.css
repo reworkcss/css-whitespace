@@ -15,3 +15,6 @@ button
 @media print
   body
     padding: 0
+  button
+    border-radius: 0
+    width: 100%

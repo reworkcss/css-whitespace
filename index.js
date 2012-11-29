@@ -3,9 +3,8 @@
  * Module dependencies.
  */
 
-var lexer = require('./lexer')
-  , parser = require('./parser')
-  , compiler = require('./compiler');
+var parse = require('./lib/parser')
+  , compile = require('./lib/compiler');
 
 /**
  * Compile a whitespace significant
@@ -18,5 +17,6 @@ var lexer = require('./lexer')
  */
 
 module.exports = function(str){
-  
+  var ast = parse(str);
+  console.log(ast);
 };

@@ -17,6 +17,5 @@ var parse = require('./lib/parser')
  */
 
 module.exports = function(str){
-  var ast = parse(str);
-  console.log(ast);
+  return compile(parse(str));
 };

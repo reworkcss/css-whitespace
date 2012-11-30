@@ -1,0 +1,19 @@
+
+body
+  background: #888
+  color: #eee
+
+ul
+  margin: 0
+  li
+    color: white
+    a
+      color: blue
+
+@media print
+  body
+    width: 100px
+    ul
+      width: 50px
+      li
+        list-style: disc

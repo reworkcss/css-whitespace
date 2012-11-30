@@ -1,0 +1,16 @@
+body {
+  padding: 50px;
+}
+
+body ul li a {
+  color: blue;
+}
+
+body ul li {
+  list-style: none;
+}
+
+body ul {
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,14 @@
+ul {
+}
+
+ul li:hover {
+  background: white;
+}
+
+ul li:active {
+  background: #ddd;
+}
+
+ul li {
+  background: #eee;
+}

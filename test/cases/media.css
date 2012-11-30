@@ -1,0 +1,12 @@
+
+body
+  padding: 50px
+
+@media print
+  body
+    padding: 0
+  
+  ul
+    li a
+      color: blue
+      text-decoration: underline

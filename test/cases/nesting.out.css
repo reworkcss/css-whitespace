@@ -2,15 +2,15 @@ body {
   padding: 50px;
 }
 
-body ul li a {
+body ul li a{
   color: blue;
 }
 
-body ul li {
+body ul li{
   list-style: none;
 }
 
-body ul {
+body ul{
   margin: 0;
   padding: 0;
 }

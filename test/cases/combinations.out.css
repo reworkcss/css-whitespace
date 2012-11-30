@@ -1,0 +1,24 @@
+ol ,
+ul {
+  margin: 0;
+}
+
+ol li a,
+ul li a{
+  color: blue;
+}
+
+@media print {
+  .content ul li.first,
+  .content ul li.last,
+  .content ul li.odd {
+    display: none;
+  }
+  body  {
+    padding: 0;
+  }
+  ul li a,
+  ol li a {
+    color: blue;
+  }
+}

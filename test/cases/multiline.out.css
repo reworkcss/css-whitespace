@@ -1,0 +1,6 @@
+button {
+  border-radius: 5px;
+  padding: 5px 10px;
+  box-shadow:  0 0 3px red, 0 0 10px green, inset 0 0 3px blue;
+  color: blue;
+}

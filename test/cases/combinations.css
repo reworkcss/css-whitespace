@@ -1,0 +1,23 @@
+
+ol,
+ul
+  margin: 0
+  li
+    a
+      color: blue
+
+@media print
+  .content
+    ul
+      li.first,
+      li.last,
+      li.odd
+        display: none
+  body
+    padding: 0
+  
+  ul,
+  ol
+    li
+      a
+        color: blue

@@ -1,10 +1,10 @@
-ol ,
+ol,
 ul {
   margin: 0;
 }
 
 ol li a,
-ul li a{
+ul li a {
   color: blue;
 }
 
@@ -14,7 +14,7 @@ ul li a{
   .content ul li.odd {
     display: none;
   }
-  body  {
+  body {
     padding: 0;
   }
   ul li a,

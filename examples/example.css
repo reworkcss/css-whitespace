@@ -4,6 +4,18 @@
 @import "bar.css"
 
 button
+  &:hover
+    color: red
+  &:active
+    color: blue
+
+ul
+  li
+    a
+      .something
+        color: white
+
+button
   // moar comments
   // hurrrrrrrr
   border-radius: 5px

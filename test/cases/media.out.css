@@ -3,7 +3,7 @@ body {
 }
 
 @media print {
-  body  {
+  body {
     padding: 0;
   }
   ul li a {

@@ -8,7 +8,11 @@ body
   background: black
   color: white
 
+// just an example comment
+
 button
+  // moar comments
+  // hurrrrrrrr
   border-radius: 5px
   padding: 5px 10px
   box-shadow:
@@ -17,6 +21,7 @@ button
     inset 0 0 3px blue
 
 @media print
+  // some stuff
   body
     padding: 0
 

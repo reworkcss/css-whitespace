@@ -1,7 +1,8 @@
 
 # css-whitespace
 
-  Whitespace significant CSS to regular CSS.
+  Whitespace significant CSS to regular CSS. Typically used for [Rework](https://github.com/visionmedia/rework),
+  however you may use it on its own if you like.
 
 ## Example
 

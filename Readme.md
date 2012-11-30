@@ -4,6 +4,19 @@
   Whitespace significant CSS to regular CSS. Typically used for [Rework](https://github.com/visionmedia/rework),
   however you may use it on its own if you like.
 
+## Installation
+
+```
+$ npm install css-whitespace
+```
+
+## API
+
+```js
+var compile = require('css-whitespace');
+var css = compile('body\n  color: #888\n');
+```
+
 ## Example
 
 ```css

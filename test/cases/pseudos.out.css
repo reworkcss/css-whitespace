@@ -69,10 +69,10 @@
   font-size: 90%;
 }
 
-.input .mr-paragraph-render-target .token a::before {
+.input .mr-paragraph-render-target .token a:before {
   color: white;
 }
 
-.input .mr-paragraph-render-target .token a::after {
+.input .mr-paragraph-render-target .token a:after {
   color: white;
 }

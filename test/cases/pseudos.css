@@ -1,0 +1,63 @@
+.input
+  position: relative
+  text-align: left
+
+.input-popup
+  font-size: 90%
+  position: absolute
+  background: rgba(255,255,255,0.975)
+  border: 1px solid #D4D4D4
+  border-bottom: none
+  border-radius: 3px 3px 0 0
+  box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(0, 0, 0, 0.05)
+  margin: 0
+  padding: 0
+  list-style: none
+
+.input-popup li
+  margin: 0
+  padding: 0 8px
+  height: 28px
+  line-height: 28px
+  color: #444
+  span.status-icon
+    float: right
+    position: relative
+    top: 8px
+  .avatar
+    width: 20px
+    height: 20px
+    background-size: cover
+    background-position: top center
+    float: left
+    position: relative
+    top: 3px
+    border-radius: 10px
+    margin-right: 10px
+    box-shadow: 0 0 0 1px rgba(255,255,255,0.5)
+
+.input-popup li:first-child
+  border-radius: 2px 2px 0 0
+
+.input-popup li:nth-child(2)
+  background: white
+
+.input-popup li.selected
+  background: #92CDF3
+  color: white
+
+.input .mr-paragraph-render-target .token
+  display: inline-block
+  border: 1px solid rgba(0,0,0,0.08)
+  background: rgba(0,0,0,0.04)
+  color: #3F78B0
+  font-weight: bold
+  text-shadow: 0 1px 0 white
+  padding: 0 8px
+  border-radius: 18px
+  cursor: pointer
+  font-size: 90%
+  a::before
+    color: white
+  a::after
+    color: white

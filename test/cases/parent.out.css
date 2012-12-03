@@ -1,5 +1,4 @@
-ul {
-}
+
 
 ul li:hover {
   background: white;
@@ -13,8 +12,7 @@ ul li {
   background: #eee;
 }
 
-ul {
-}
+
 
 ul:hover li a {
   color: blue;

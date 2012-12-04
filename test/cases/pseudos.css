@@ -61,3 +61,6 @@
     color: white
   a:after
     color: white
+
+textarea:focus::-webkit-input-placeholder
+  color: #cdcdcd

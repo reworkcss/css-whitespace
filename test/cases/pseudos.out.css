@@ -76,3 +76,7 @@
 .input .mr-paragraph-render-target .token a:after {
   color: white;
 }
+
+textarea:focus::-webkit-input-placeholder {
+  color: #cdcdcd;
+}

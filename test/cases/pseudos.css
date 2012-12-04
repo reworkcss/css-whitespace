@@ -62,5 +62,9 @@
   a:after
     color: white
 
+input:-webkit-autofill ~ .error
+  pointer-events: none
+  z-index: inherit
+
 textarea:focus::-webkit-input-placeholder
   color: #cdcdcd

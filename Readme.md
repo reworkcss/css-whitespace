@@ -30,9 +30,10 @@ body
   background: black
   colour: white
 
-button
-  border-radius: 5px
-  padding: 5px 10px
+form
+  button
+    border-radius: 5px
+    padding: 5px 10px
 
 @media print
   body
@@ -56,7 +57,7 @@ body {
   colour: white;
 }
 
-button {
+form button {
   border-radius: 5px;
   padding: 5px 10px;
 }

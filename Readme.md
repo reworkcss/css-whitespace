@@ -1,4 +1,3 @@
-
 # css-whitespace
 
   Whitespace significant CSS to regular CSS. Typically used for [Rework](https://github.com/visionmedia/rework),
@@ -28,7 +27,7 @@ var css = compile('body\n  color: #888\n');
 body
   padding: 50px
   background: black
-  colour: white
+  color: white
 
 form
   button
@@ -54,7 +53,7 @@ yields:
 body {
   padding: 50px;
   background: black;
-  colour: white;
+  color: white;
 }
 
 form button {

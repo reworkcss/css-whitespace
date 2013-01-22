@@ -11,10 +11,10 @@ describe('should support', function(){
     var base = path.basename(file, '.css');
     var input = read('test/cases/' + file, 'utf8');
     var output = read('test/cases/' + base + '.out.css', 'utf8');
-  
+
     it(base, function(){
-      var out = compile(input);
-      out.should.equal(output);
+      var out = compile(input).trim();
+      out.should.equal(output.trim());
     })
-  });  
+  });
 })

@@ -17,3 +17,13 @@ ul li {
 ul:hover li a {
   color: blue;
 }
+
+something {
+  color: black;
+}
+
+something:active,
+something:hover,
+something.hover {
+  color: white;
+}

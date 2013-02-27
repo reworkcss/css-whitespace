@@ -12,3 +12,10 @@ ul
     li
       a
         color: blue
+
+something
+  color: black
+  &:active,
+  &:hover,
+  &.hover
+    color: white

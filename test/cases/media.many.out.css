@@ -1,0 +1,11 @@
+@media screen and (max-width: 481px) {
+  .collection.two .item,
+  .collection.three .item {
+    margin-left: 0;
+  }
+  .collection.two,
+  .collection.three {
+    width: 400px;
+    background: red;
+  }
+}

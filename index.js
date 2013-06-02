@@ -3,8 +3,8 @@
  * Module dependencies.
  */
 
-var parse = require('./lib/parser')
-  , compile = require('./lib/compiler');
+var parse = require('./lib/parser');
+var compile = require('./lib/compiler');
 
 /**
  * Compile a whitespace significant

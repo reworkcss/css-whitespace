@@ -1,4 +1,10 @@
+/*
+this is a button
+*/
+
+
 button {
   color: #eee;
+  /* css style */
   background: blue;
 }

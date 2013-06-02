@@ -1,7 +1,17 @@
 
+/*
+
+regular multi-line comment
+
+*/
+
+/* regular comment */
+
 body
   background: #888
   color: #eee
+
+// stripped comment
 
 ul
   margin: 0

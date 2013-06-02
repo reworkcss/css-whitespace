@@ -7,6 +7,7 @@
 
 ```
 $ npm install css-whitespace
+$ component install visionmedia/css-whitespace
 ```
 
 ## API
@@ -37,7 +38,7 @@ form
 @media print
   body
     padding: 0
-    
+
   button
     border-radius: 0
     width: 100%
@@ -72,6 +73,6 @@ form button {
 }
 ```
 
-## License 
+## License
 
   MIT

@@ -1,4 +1,12 @@
 
+1.1.0 / 2013-06-02 
+==================
+
+ * add component support
+ * add support for regular css multi-line comments. Closes #12
+ * add stripping of blank lines. Closes #14
+ * remove blank() from lexer
+
 1.0.0 / 2013-02-27 
 ==================
 
